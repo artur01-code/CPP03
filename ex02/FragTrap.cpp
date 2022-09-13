@@ -4,16 +4,16 @@
 FragTrap::FragTrap() : ClapTrap("Default_Scav")
 {
 	hit_points = 100;
-	energy_points = 50;
-	attack_damage = 20;
+	energy_points = 100;
+	attack_damage = 30; 
 	std::cout << "[FragTrap default constructor]" << std::endl;
 }
 
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
 {
 	hit_points = 100;
-	energy_points = 50;
-	attack_damage = 20;
+	energy_points = 100;
+	attack_damage = 30;
 	std::cout << "[FragTrap default constructor]" << std::endl;
 }
 

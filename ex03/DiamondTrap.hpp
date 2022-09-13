@@ -22,3 +22,9 @@ class DiamondTrap : public ScavTrap, public FragTrap
 };
 
 #endif
+
+/*
+		ClapTrap
+ScavTrap		FragTrap
+		DiamondTrap
+*/
