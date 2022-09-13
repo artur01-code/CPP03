@@ -40,22 +40,6 @@ FragTrap& FragTrap::operator=(const FragTrap& obj)
 	return (*this);
 }
 
-void FragTrap::attack(const std::string& target)
-{
-	if (hit_points <= 0)
-	{
-		std::cout << "Trap " << _name << " is dead!" << std::endl;
-		return ;
-	}
-	else if (energy_points <= 0)
-	{
-		std::cout << "Trap " << _name << " has not enough energy points!" << std::endl;
-		return ;
-	}
-	energy_points--;
-	std::cout << "Trap " << _name << " attacks " << target << " causing " << attack_damage << " damage points." << std::endl;
-}
-
 void FragTrap::highFivesGuys(void)
 {
 	std::cout << "Hey Guys, lets stop the fight and give me a high five" << std::endl;

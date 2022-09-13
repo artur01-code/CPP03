@@ -9,7 +9,7 @@ class ClapTrap {
 	ClapTrap(void);
 	ClapTrap(std::string name);
 	ClapTrap(const ClapTrap &obj);
-	virtual ~ClapTrap(void);
+	~ClapTrap(void);
 	ClapTrap& operator=(const ClapTrap &obj);
 	
 	//attributes
